@@ -28,7 +28,7 @@ portfolio/
 
 ## 🌐 Live Demo
 
-🔗 [Visit My Portfolio](https://gurkamalsingh.github.io/portfolio/)
+🔗 [Visit My Portfolio](https://gsingh557.github.io/Portfolio/)
 
 ---
 
