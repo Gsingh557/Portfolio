@@ -34,9 +34,9 @@ portfolio/
 
 ## 📫 Contact
 
-- **Email**: gurkamalsingh@email.com  
-- **GitHub**: [github.com/gurkamalsingh](https://github.com/gurkamalsingh)  
-- **LinkedIn**: [linkedin.com/in/gurkamalsingh](https://linkedin.com/in/gurkamalsingh)  
+- Email: gurkamal458@gmail.com  
+- GitHub: [github.com/gsingh557](https://gsingh557.github.io/Portfolio/)  
+- LinkedIn: [linkedin.com/in/gurkamal-singh-666920258)](https://www.linkedin.com/in/gurkamal-singh-666920258)  
 - **Location**: Nawanshahr, Punjab
 
 ---
