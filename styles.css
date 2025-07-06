@@ -6,36 +6,57 @@
 p{
     display: inline-block;
 }
-
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  max-width: 1100px;      /* Keep navbar content tight */
-  margin: 0 auto;         /* Center the navbar */
-  background-color: #161b22;
-  border-radius: 10px;
-  margin-top: 20px;
+  flex-wrap: wrap; /* Allows mobile wrap */
+  padding: 15px;
+  gap: 10px;
 }
 
-#home,#pronav, #resnav, #Gitnav {
-  display: flex;
-  gap: 1.5rem;
+.intro-text {
+  font-size: 1rem;
+  color: #ccc;
+  flex: 1 1 100%;
+  text-align: center;
 }
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4da6ff;
+}
+@media (max-width: 600px) {
+  .nav-links a {
+    display: block;
+    margin: 4px auto;
+    text-align: center;
+  }
+}
+
+
 a{
   text-decoration:none;
 }
-#home,#pronav, #resnav, #Gitnav  {
-  text-decoration: none;
-  color: #c9d1d9;
-  font-weight: bold;
-}
 
-#home:hover,#pronav:hover, #resnav:hover, #Gitnav:hover {
-  color: #58a6ff;
-}
+
+
+
 body {
   background-color: #0d1117;
   color: #c9d1d9;
