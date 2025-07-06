@@ -9,22 +9,31 @@
 <body>
     <!-- Navbar -->
 <div class="navbar">
-    <p>Gurkamal Singh • Software Developer</p>
-    <a href="index.html" id="home">Home</a>
-    <a href="project.html" id="pronav" target="_blank">Projects</a>
-    <a href="resume.html" id="resnav" target="_blank">Resume</a>
-    <a href="https://github.com/Gsingh557" id="Gitnav" target="_blank">GitHub</a>
+  <div class="nav-left">
+    <img src="assets/profile.jpg" alt="Profile Photo"  onclick="openModal()" class="profile-img">
+    <div>
+      <span>Gurkamal Singh</span><br>
+      <small>Software Developer</small>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="project.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="https://github.com/Gsingh557" target="_blank">GitHub</a>
+  </div>
+ 
+
+<!-- Modal -->
+<div id="imgModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
 </div>
 
-<!-- Profile Card -->
-<div class="profile-card">
-    <img src="assets/profile.jpg" alt="Gurkamal Singh" class="profile-pic">
-    <div class="profile-info">
-        <h2>Gurkamal Singh</h2>
-        <p>Software Developer • Electrical Engineering Student at NIT Allahabad</p>
-        <p class="location">📍 Nawanshahr, Punjab</p>
-    </div>
 </div>
+
+<!-- Main Content -->
+
 
     <div class="icon-container">
   <div class="icon-box">
@@ -52,6 +61,16 @@
   <p>while(alive) { code(); sleep(); repeat(); }</p>
   <p>© Gurkamal Singh, 2025</p>
 </footer>
+<script>
+  function openModal() {
+    document.getElementById("imgModal").style.display = "flex";
+    document.getElementById("modalImage").src = document.querySelector(".profile-img").src;
+  }
+
+  function closeModal() {
+    document.getElementById("imgModal").style.display = "none";
+  }
+</script>
 
 </body>
 </html>
