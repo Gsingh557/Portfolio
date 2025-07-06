@@ -48,6 +48,49 @@ p{
     text-align: center;
   }
 }
+.profile-card {
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4da6ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.profile-info h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #fff;
+}
+
+.profile-info p {
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.location {
+  font-style: italic;
+  color: #aaa;
+}
+
 
 
 a{
